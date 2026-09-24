@@ -13,6 +13,7 @@ use crate::{
 };
 
 /// A light wrapper around the oci-distribution client to add support for the `application/wasm` type
+#[derive(Default)]
 pub struct WasmClient {
     client: Client,
 }
